@@ -14,6 +14,8 @@ Repo này chứa ngữ cảnh cho dự án mod **The8Dungeons**. Code mod nằm 
 | [tinh-nang/](tinh-nang/) | Làm việc với một tính năng cụ thể |
 | [hoc-java/lo-trinh.md](hoc-java/lo-trinh.md) | Dạy Java, chọn bài tiếp theo |
 | [hoc-java/nhat-ky-hoc.md](hoc-java/nhat-ky-hoc.md) | Review code: nhắc lại lỗi hay mắc |
+| [hoc-java/tu-dien.md](hoc-java/tu-dien.md) | Gặp thuật ngữ, công thức mới |
+| [hoc-java/cach-hoc.md](hoc-java/cach-hoc.md) | Mọi buổi dạy: bậc gợi ý, ghi chú 👀, câu lệnh nhanh |
 
 ### Tính năng
 
