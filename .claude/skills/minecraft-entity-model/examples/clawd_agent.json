@@ -1,0 +1,30 @@
+{
+  "name": "clawd_agent",
+  "texture_size": 64,
+  "palette": {
+    "light":   "#EE9A6C",
+    "mid":     "#D97757",
+    "dark":    "#B85C45",
+    "darker":  "#9A4A3A",
+    "darkest": "#73362F",
+    "eye":     "#1C1412",
+    "glint":   "#5C4A44",
+    "blush":   "#E8806E"
+  },
+  "group_pivots": {"body": [0, 3, 0], "claws": [0, 6, 0], "legs": [0, 3, 0]},
+  "cubes": [
+    {"name": "body",       "group": "body",  "from": [-6, 3, -3], "size": [12, 7, 6]},
+    {"name": "claw_left",  "group": "claws", "from": [-8, 5, -1], "size": [2, 3, 2], "pivot": [-6, 7, 0]},
+    {"name": "claw_right", "group": "claws", "from": [6, 5, -1],  "size": [2, 3, 2], "pivot": [6, 7, 0]},
+    {"name": "leg_1", "group": "legs", "from": [-6, 0, -2], "size": [2, 3, 4], "pivot": [-5, 3, 0]},
+    {"name": "leg_2", "group": "legs", "from": [-3, 0, -2], "size": [2, 3, 4], "pivot": [-2, 3, 0]},
+    {"name": "leg_3", "group": "legs", "from": [1, 0, -2],  "size": [2, 3, 4], "pivot": [2, 3, 0]},
+    {"name": "leg_4", "group": "legs", "from": [4, 0, -2],  "size": [2, 3, 4], "pivot": [5, 3, 0]}
+  ],
+  "details": [
+    ["body","north",2,1,"eye"],["body","north",3,1,"eye"],["body","north",2,2,"eye"],["body","north",3,2,"eye"],["body","north",2,3,"eye"],["body","north",3,3,"eye"],
+    ["body","north",8,1,"eye"],["body","north",9,1,"eye"],["body","north",8,2,"eye"],["body","north",9,2,"eye"],["body","north",8,3,"eye"],["body","north",9,3,"eye"],
+    ["body","north",2,1,"glint"],["body","north",8,1,"glint"],
+    ["body","north",1,4,"blush"],["body","north",10,4,"blush"]
+  ]
+}
