@@ -80,10 +80,24 @@ Annotation khác giữ nguyên, có thể thêm chú thích ngắn trong ngoặc
 
 ## Định dạng trả lời
 
-1. Một khối mã `text` chứa bản dịch, giữ thụt lề như bản gốc.
-2. Nếu đoạn ngắn (dưới ~15 dòng), có thể dùng bảng 2 cột "Java | Tiếng Việt" thay cho khối mã.
-3. Phần **Ghi chú** (chỉ khi cần): lỗi nhìn thấy, khái niệm mới nên tra trong `hoc-java/tu-dien.md`.
-4. Không đưa lời giải hay bản sửa trừ khi người dùng yêu cầu.
+Câu trả lời gồm **hai phần tách rời**, theo đúng thứ tự:
+
+**Phần 1: Đáp án (mã Java gốc, nguyên văn)**
+- Một khối mã ` ```java ` chứa đúng mã Java, không chèn chú thích dịch vào.
+- Không sửa, không xóa, không thêm dòng nào so với bản gốc.
+
+**Phần 2: Bản dịch tiếng Việt**
+- Một khối mã ` ```text ` riêng, đặt sau đáp án, có tiêu đề `Bản dịch tiếng Việt`.
+- Giữ thụt lề và số dòng khớp với phần 1, để đối chiếu từng dòng.
+- Nếu đoạn ngắn (dưới ~15 dòng), có thể dùng bảng 2 cột "Java | Tiếng Việt" thay cho khối `text`.
+
+**Phần 3: Ghi chú** (chỉ khi cần)
+- Đặt sau bản dịch, dạng gạch đầu dòng. Nêu lỗi nhìn thấy kèm số dòng.
+- Khái niệm mới nên tra trong `hoc-java/tu-dien.md`.
+
+Quy tắc chung:
+- Không đưa lời giải hay bản sửa trừ khi người dùng yêu cầu.
+- Không chèn bản dịch vào file Java; bản dịch chỉ tồn tại trong câu trả lời.
 
 ## Ví dụ
 
