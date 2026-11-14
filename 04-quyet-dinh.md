@@ -11,3 +11,5 @@ Mỗi dòng: ngày — quyết định — lý do. Mới nhất ở dưới.
 | 2026-11 | Công cụ Blockly (clone MCreator) tự viết block/template, không copy MCreator | Tránh GPL |
 | 2026-11 | Nhãn block của công cụ Blockly đổi được Việt/Anh | |
 | 2026-11 | Tài liệu ngữ cảnh gom vào repo `The8Dungeon-docs` | Tách khỏi code |
+| 2026-11 | Đuốc tái dùng model `torch`; khi tắt chỉ thêm texture `torch_off` (không thêm model mới) | Giảm số file tài nguyên |
+| 2026-11 | Không tùy tiện thêm tiền tố vị trí (như `dungeon_`) vào tên lớp, ID đăng ký hay tên tài nguyên; chỉ thêm khi cần phân biệt với bản khác | Giữ tên ngắn, dùng chung được |

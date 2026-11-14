@@ -32,3 +32,8 @@ net/susu609/the8dungeons/
 - Logic game chạy phía server; kiểm `level.isClientSide()`.
 - Tách logic thuần khỏi Minecraft khi được (như `DungeonLayout`) để dễ test.
 - Comment tiếng Việt, giải thích *vì sao*. Tên trong code tiếng Anh.
+
+## Đặt tên tài nguyên và đăng ký
+
+- Không tự thêm tiền tố vị trí (ví dụ `dungeon_`) vào lớp, ID đăng ký hay file tài nguyên. Chỉ thêm khi thật sự cần phân biệt.
+- Trạng thái khác của cùng một khối dùng chung model, chỉ thêm texture có hậu tố trạng thái. Ví dụ đuốc: model `torch`, texture `torch_off` khi tắt.
