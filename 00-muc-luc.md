@@ -16,7 +16,7 @@ Repo này chứa ngữ cảnh cho dự án mod **The8Dungeons**. Code mod nằm 
 | [hoc-java/nhat-ky-hoc.md](hoc-java/nhat-ky-hoc.md) | Review code: nhắc lại lỗi hay mắc |
 | [hoc-java/tu-dien.md](hoc-java/tu-dien.md) | Gặp thuật ngữ, công thức mới |
 | [hoc-java/cach-hoc.md](hoc-java/cach-hoc.md) | Mọi buổi dạy: bậc gợi ý, ghi chú 👀, câu lệnh nhanh |
-| [.claude/skills/](.claude/skills/) | Kỹ năng cho Claude: dựng model entity Blockbench (`minecraft-entity-model`), đóng gói bản cập nhật thành zip (`mod-update-patch`) |
+| [.claude/skills/](.claude/skills/) | Kỹ năng cho Claude: dựng model entity Blockbench (`minecraft-entity-model`), đóng gói bản cập nhật thành zip (`mod-update-patch`), dịch mã Java sang tiếng Việt giữ nguyên tên (`dich-ma-java`) |
 
 ### Tính năng
 
